@@ -174,15 +174,15 @@ input[type="checkbox"]:checked:after {
 
 @media (max-width: 768px ) {
   .container {
-    margin: 0 1.5em;
+    margin: 0 1em;
   }
   .app {
     margin: 2em 0;
     padding: 0.5em;
-    box-shadow: 10px 10px 1px var(--backgroundShadow), 10px 10px 0 2px var(--black);
+    box-shadow: 8px 8px 1px var(--backgroundShadow), 8px 8px 0 2px var(--black);
   }
   .input-task {
-    width: 200px;
+    width: 180px;
     margin: 0 .5em;
   }
   .btn-submit {
@@ -190,7 +190,7 @@ input[type="checkbox"]:checked:after {
     box-shadow: 3px 3px 1px var(--backgroundShadow), 3px 3px 0 1px var(--black);
   }
   .task-content {
-    width: 300px;
+    width: 280px;
     word-break: normal;
     overflow-wrap: break-word;
   }
